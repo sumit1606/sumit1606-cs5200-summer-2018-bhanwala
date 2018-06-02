@@ -56,6 +56,9 @@ public class HelloController {
 		List<HelloObject> hellos =
 			(List<HelloObject>)helloRepository.findAll();
 		return hellos;
-	} 
+	}
+
+
+
 
 }
